@@ -1,0 +1,471 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.w100{
+    width: 100%;
+}
+.w50{
+    width: 50%;
+}
+.w33{
+    width: 33.333%;
+}
+.w25{
+    width: 25%;
+}
+/*Header ////////////////////////////////////////////////////////////////////////////*/
+.logo{
+    width: 224px;
+    height: 95px;  
+    background-color: rgb(140,140,140); 
+}
+header{
+    margin: 25px 0;
+    background-color: rgb(200,200,200);
+}
+.limite{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.content{
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 40px 3px 15px;
+}
+nav > .menu {
+    list-style-type: none;
+    display: flex;
+    margin-top: 15px;
+}
+nav  .menu  a{
+    color: black;
+    text-decoration: none;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*Fim Header /////////////////////////////////////////////////////////////////////////*/
+
+/*Section carrosel-1///////////////////////////////////////////////////////////////////*/
+.carrosel-1  .carousel-indicators{
+    margin: auto;
+}
+.carrosel-1  .carousel-indicators > li{
+    left: 38%;
+    height: 13px;
+    width: 13px;
+    border-radius: 100%;
+    margin: 0px 0px 3px 13px;
+}
+.carousel-item{
+    background-color: rgb(140,140,140); 
+    height: 327px;
+}
+/*Fim Section carrosel-1///////////////////////////////////////////////////////////////*/
+
+/*bloco-1//////////////////////////////////////////////////////////////////////////////*/
+.bloco-1{
+    padding: 48px 0 25px 0;
+    background-color: rgb(200,200,200);
+}
+.bloco-1-p{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: justify;
+    width: 88%;
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 90px;
+    
+}
+.bloco-1-btn{
+    width: 100%;
+    text-align: center;
+}
+.bloco-1-btn a{
+    display: inline-block;
+    text-decoration: none;
+}
+.bloco-1-btn a > p{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 8px;
+    cursor: pointer;
+    margin: 0 auto;
+    background-color: rgb(140,140,140);
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    height: 66px;
+    width: 446px;
+    line-height: 24px;
+    text-align: center;
+}
+#bloco-1-arrow{
+    margin: 0 auto;
+    cursor: pointer;
+    background-image: url('../img/down-arrow.png');
+    width: 60px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+}
+/*fim bloco-1//////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-2///////////////////////////////////////////////////////////////////////////////////*/
+.bloco-2{
+    text-align: center;
+    padding: 50px 0 85px 0;
+}
+.bloco-2 > h3 {
+    margin: 30px;
+}
+.bloco-2 .bloco-2-container{
+    margin-top: 75px;
+    display: flex;
+    width: 100%;
+}
+.bloco-2 .bloco-2-container img{
+    margin: 25px;
+    width: 208px;
+    height: 139px;
+    border: 1px solid black;
+}
+.bloco-2 .bloco-2-container p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.bloco-2 .bloco-2-container h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+.container-item-1 > h4{
+    margin-bottom: 0;
+}
+.container-item-1  img{
+    margin-top: 100px;
+}
+/*fim bloco-2//////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-3 //////////////////////////////////////////////////////////////////////////////////*/
+.bloco-3{
+    height: 339px;
+    width: 100%;
+    background-color: rgb(140,140,140);
+}
+/*fim bloco-3 /////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-4 //////////////////////////////////////////////////////////////////////////////////*/
+.bloco-4{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(200,200,200);
+    height: 100%;
+}
+.bloco-4 > h3 {
+    padding: 40px 0 30px 0;
+    font-weight: bold;
+    color: black;
+}
+.bloco-4-p{
+    margin: 0 auto;
+    width: 88%;
+    color: black;
+    line-height: 27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center; 
+}
+.bloco-4-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.bloco-4-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.bloco-4-btn a > p{
+    line-height: 350%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(140,140,140);
+    border: 1px solid black;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    height: 66px;
+    width: 350px;
+}
+/*fim bloco-4 /////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-5 //////////////////////////////////////////////////////////////////////////////////*/
+.bloco-5{
+    width: 100%;
+    padding: 20px 0 35px 0;
+    margin: 30px 0;
+    display: flex;
+    text-align: center;
+    background-color: rgb(200,200,200);
+}
+.bloco-5  p{
+    width: 85%;
+    margin: 0 auto;
+}
+.bloco-5 img{
+    margin: 55px 0;
+}
+/*fim bloco-5 /////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-6 /////////////////////////////////////////////////////////////////////////////////*/
+.bloco-6{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+    background-color: rgb(140,140,140);
+}
+.bloco-6  h3 {
+    padding: 40px 0 45px 0;
+    font-weight: bold;
+    color: black;
+}
+.bloco-6-item-1 {
+    background-color: rgb(140,140,140);
+    padding: 20px 0 35px 0;
+}
+.bloco-6-item-2 {
+    background-color: rgb(140,140,140);
+}
+.bloco-6-p{
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+    line-height: 27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center; 
+}
+.bloco-6-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.bloco-6-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.bloco-6-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(200,200,200);
+    border: 1px solid black;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    height: 82px;
+    width: 346px;
+    line-height: 36px;
+    padding-top: 5px;
+}
+/*fim bloco-6 //////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-7 /////////////////////////////////////////////////////////////////////////////////*/
+.bloco-7{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.bloco-7 h3 {
+    padding: 40px 0 20px 0;
+    font-weight: bold;
+    color: black;
+}
+.bloco-7-item-1 {
+    background-color: rgb(200,200,200);
+}
+.bloco-7-item-2 {
+    background-color: rgb(200,200,200);
+    padding: 20px 0 35px 0;
+}
+.bloco-7-p{
+    margin: 0 auto;
+    width: 80%;
+    color: black;
+    line-height: 27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center; 
+}
+.bloco-7-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.bloco-7-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.bloco-7-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(140,140,140);
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    height: 82px;
+    width: 346px;
+    line-height: 24px;
+    padding-top: 15px;
+}
+/*fim bloco-7 //////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-8///////////////////////////////////////////////////////////////////////////////////*/
+.bloco-8{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+    background-color: rgb(200,200,200);
+    padding: 20px 0;
+}
+.bloco-8 > h3{
+    padding: 20px 0 5px 0;
+    font-weight: bold;
+    color: black;
+}
+.bloco-8-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.bloco-8-container img{
+    padding: 50px;
+}
+/*fim bloco-8///////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-9///////////////////////////////////////////////////////////////////////////////////*/
+.bloco-9{
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+    background-color: rgb(200,200,200);
+    padding: 20px 0 60px 0;
+}
+.bloco-9 > h3{
+    padding: 20px 0 5px 0;
+    font-weight: bold;
+    color: black;
+}
+.bloco-9-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.bloco-9-container img{
+    padding: 50px;
+}
+.bloco-9 .carousel-item{
+    background-color:transparent ;
+    padding-top: 95px;
+}
+
+.bloco-9 .carousel-control-prev{
+    position: absolute;
+    width: 8%;
+}
+.bloco-9 .carousel-control-next{
+    position: absolute;
+    width: 8%;
+}
+/*fim bloco-9///////////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-10///////////////////////////////////////////////////////////////////////////////*/
+.bloco-10{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(200,200,200);
+    padding: 20px 0 80px 0;
+}
+.bloco-10 h3{
+    margin: 10px 0 45px 0;
+}
+.bloco-10 form{
+    width: 80%;
+    margin: 0 auto;
+}
+.bloco-10 input{
+    width: 100%;
+    margin: 35px 0 0 0;
+    line-height: 86px;
+    border: none;
+    text-align: center;
+}
+
+.bloco-10-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.bloco-10-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+.bloco-10-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(140,140,140);
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    height: 66px;
+    width: 256px;
+    line-height: 24px;
+    padding-top: 18px;
+}
+
+.bloco-10 iframe{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 25px;
+}
+/*fim bloco-10///////////////////////////////////////////////////////////////////////////*/
