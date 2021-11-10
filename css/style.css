@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    scroll-behavior: smooth;
 }
 .w100{
     width: 100%;
@@ -48,6 +52,7 @@ nav  .menu  a{
     margin-left: 45px;
     font-size: 18px;
     font-weight: 600;
+    padding: 28px;
 }
 /*Fim Header /////////////////////////////////////////////////////////////////////////*/
 
