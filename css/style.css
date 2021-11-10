@@ -460,12 +460,53 @@ nav  .menu  a{
     height: 66px;
     width: 256px;
     line-height: 24px;
-    padding-top: 18px;
+    padding-top: 20px;
 }
 
 .bloco-10 iframe{
     width: 90%;
     height: 80%;
     margin-bottom: 25px;
+}
+/*fim bloco-10///////////////////////////////////////////////////////////////////////////*/
+
+/*bloco-11////////////////////////////////////////////////////////////////////////////////*/
+.bloco-11{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(200,200,200);
+    padding: 70px 0 110px 0;
+}
+.menu-icons{
+    display: flex;
+    width: 35%;
+    margin: 0 auto;
+}
+.menu-icons a{
+    padding: 0px 35px 45px 35px;
+}
+.menu-icons .bloco-11-item-1{
+    background-image: url('../img/instagram.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 64px;
+}
+.menu-icons .bloco-11-item-2{
+    background-image: url('../img/facebook.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 64px;
+}
+.menu-icons .bloco-11-item-3{
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 64px;
+}
+.menu-icons .bloco-11-item-4{
+    background-image: url('../img/whatsapp.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 64px;
 }
 /*fim bloco-10///////////////////////////////////////////////////////////////////////////*/
