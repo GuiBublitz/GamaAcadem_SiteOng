@@ -96,7 +96,7 @@ nav  .menu  a{
     line-height: 24px;
     margin: 0 auto;
     width: 70%;
-    color: black;
+    color: #454545;
     margin-bottom: 60px;
     margin-top: 15px;
     font-style: normal;
@@ -140,15 +140,21 @@ nav  .menu  a{
     background-position: center;
     margin-top: 60px;
 }
+#bloco-1-arrow a{
+padding: 10px 10px 15px 50px;
+}
 /*fim bloco-1//////////////////////////////////////////////////////////////////////////////*/
 
 /*bloco-2///////////////////////////////////////////////////////////////////////////////////*/
 .bloco-2{
     text-align: center;
     padding: 50px 0 85px 0;
+    background-color: #006699;
+    color: white;
 }
 .bloco-2 > h3 {
     margin: 30px;
+    color: white;
 }
 .bloco-2 .bloco-2-container{
     margin-top: 75px;
@@ -199,18 +205,19 @@ nav  .menu  a{
 .bloco-4{
     text-align: center;
     width: 100%;
-    background-color: rgb(200,200,200);
+    background-color: white;
     height: 100%;
+    color: #454545;
 }
 .bloco-4 > h3 {
+    font-family: 'Poppins';
     padding: 40px 0 30px 0;
-    font-weight: bold;
-    color: black;
+    font-weight: 600;
+    color: #454545;
 }
 .bloco-4-p{
     margin: 0 auto;
     width: 88%;
-    color: black;
     line-height: 27px;
     font-family: Roboto;
     font-style: normal;
@@ -234,14 +241,16 @@ nav  .menu  a{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background-color: rgb(140,140,140);
-    border: 1px solid black;
-    color: black;
-    font-size: 18px;
+    background-color:  #0FBDCE;
+    color: white;
+    border-radius: 13px;
+    font-size: 20px;
     font-weight: 600;
-    height: 66px;
-    width: 350px;
+    height: 84px;
+    width: 500px;
+    padding-top: 8px;
 }
+
 /*fim bloco-4 /////////////////////////////////////////////////////////////////////////////*/
 
 /*bloco-5 //////////////////////////////////////////////////////////////////////////////////*/
@@ -251,13 +260,24 @@ nav  .menu  a{
     margin: 30px 0;
     display: flex;
     text-align: center;
-    background-color: rgb(200,200,200);
+    background-color: #0FBDCE;
+    color: white;
 }
 .bloco-5  p{
+    font-family: 'Roboto';
     width: 85%;
     margin: 0 auto;
 }
-.bloco-5 img{
+#it1{
+    margin: 55px 0;
+}
+#it2{
+    margin: 30px 0;
+}
+#it3{
+    margin: 25px 0 30px 0;
+}
+#it4{
     margin: 55px 0;
 }
 /*fim bloco-5 /////////////////////////////////////////////////////////////////////////////*/
@@ -271,11 +291,12 @@ nav  .menu  a{
     background-image: url('../img/banner-faça-parte-do-projeto-1440x495.png');
     background-size: 100% 100%;
     max-height: 475px;
+    color: white;
 }
 .bloco-6  h3 {
     padding: 40px 0 45px 0;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 .bloco-6-item-1 {
     padding: 20px 0 35px 0;
@@ -283,7 +304,7 @@ nav  .menu  a{
 .bloco-6-p{
     margin: 0 auto;
     width: 80%;
-    color: black;
+    color: white;
     line-height: 27px;
     font-family: Roboto;
     font-style: normal;
@@ -306,15 +327,15 @@ nav  .menu  a{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background-color: rgb(200,200,200);
-    border: 1px solid black;
-    color: black;
+    background-color: #0FBDCE;
+    color: white;
     font-size: 24px;
     font-weight: 600;
     height: 82px;
-    width: 346px;
-    line-height: 36px;
-    padding-top: 5px;
+    width: 420px;
+    line-height: 24px;
+    padding-top: 28px;
+    border-radius: 13px;
 }
 /*fim bloco-6 //////////////////////////////////////////////////////////////////////////////*/
 
@@ -327,11 +348,12 @@ nav  .menu  a{
     background-image: url('../img/banner-georgette-vidor-1440x495.png');
     background-size: 100% 100%;
     max-height: 475px;
+    color: #454545;
 }
 .bloco-7 h3 {
+    font-family: 'Poppins';
     padding: 10px 0 15px 0;
     font-weight: bold;
-    color: black;
 }
 .bloco-7-item-2 {   
     padding: 20px 15px 35px 0;
@@ -339,9 +361,8 @@ nav  .menu  a{
 .bloco-7-p{
     margin: 0 auto;
     width: 95%;
-    color: black;
     line-height: 27px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -362,15 +383,15 @@ nav  .menu  a{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background-color: rgb(140,140,140);
-    border: 1px solid black;
-    color: black;
+    background-color: white;
+    color: #454545;
     font-size: 16px;
     font-weight: 600;
     height: 82px;
     width: 346px;
     line-height: 24px;
-    padding-top: 15px;
+    padding-top: 18px;
+    border-radius: 13px;
 }
 /*fim bloco-7 //////////////////////////////////////////////////////////////////////////////*/
 
@@ -379,13 +400,13 @@ nav  .menu  a{
     width: 100%;
     text-align: center;
     margin: 0 0 30px 0;
-    background-color: rgb(200,200,200);
+    background-color: white;
     padding: 20px 0;
 }
 .bloco-8 > h3{
     padding: 20px 0 5px 0;
     font-weight: bold;
-    color: black;
+    color: #454545;
 }
 .bloco-8-container{
     display: flex;
@@ -402,13 +423,16 @@ nav  .menu  a{
     width: 100%;
     text-align: center;
     margin: 0 0 30px 0;
-    background-color: rgb(200,200,200);
-    padding: 20px 0 60px 0;
+    background-color: #006699;
+    padding: 40px 0 60px 0;
 }
 .bloco-9 > h3{
     padding: 20px 0 5px 0;
     font-weight: bold;
-    color: black;
+    color: white;
+}
+.bloco-9 h3 img{
+    height: 45px;
 }
 .bloco-9-container{
     display: flex;
@@ -422,7 +446,6 @@ nav  .menu  a{
 }
 .bloco-9 .carousel-item{
     background-color:transparent ;
-    padding-top: 35px;
 }
 
 .bloco-9 .carousel-control-prev{
@@ -440,8 +463,9 @@ nav  .menu  a{
     display: flex;
     width: 100%;
     text-align: center;
-    background-color: rgb(200,200,200);
+    background-color: #0FBDCE;
     padding: 20px 0 80px 0;
+    color: #454545;
 }
 .bloco-10 h3{
     margin: 10px 0 45px 0;
@@ -456,6 +480,13 @@ nav  .menu  a{
     line-height: 86px;
     border: none;
     text-align: center;
+    border-radius: 12px;
+    color: #454545;
+    font-size: 22px;
+}
+.bloco-10 input::placeholder{
+    color: rgba(200, 200, 200, 200);
+    font-size: 22px;
 }
 
 .bloco-10-btn{
@@ -472,15 +503,19 @@ nav  .menu  a{
     text-align: center;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
-    background-color: rgb(140,140,140);
-    border: 1px solid black;
-    color: black;
-    font-size: 16px;
+    background-color: #006699;
+    color: white;
+    font-size: 22px;
     font-weight: 600;
-    height: 66px;
-    width: 256px;
+    height: 75px;
+    width: 350px;
     line-height: 24px;
     padding-top: 20px;
+    border-radius: 12px;
+}
+.bloco-10-btn a p img{
+    width: 32px;
+    height: 32px;
 }
 
 .bloco-10 iframe{
@@ -494,7 +529,7 @@ nav  .menu  a{
 .bloco-11{
     width: 100%;
     text-align: center;
-    background-color: rgb(200,200,200);
+    background-color: #0FBDCE;
     padding: 70px 0 110px 0;
 }
 .menu-icons{
@@ -509,50 +544,633 @@ nav  .menu  a{
     background-image: url('../img/instagram.png');
     background-repeat: no-repeat;
     background-position: center; 
-    height: 64px;
+    height: 60px;
 }
 .menu-icons .bloco-11-item-2{
     background-image: url('../img/facebook.png');
     background-repeat: no-repeat;
     background-position: center; 
-    height: 64px;
+    height: 60px;
 }
 .menu-icons .bloco-11-item-3{
     background-image: url('../img/email.png');
     background-repeat: no-repeat;
     background-position: center; 
-    height: 64px;
+    height: 60px;
 }
 .menu-icons .bloco-11-item-4{
     background-image: url('../img/whatsapp.png');
     background-repeat: no-repeat;
     background-position: center; 
-    height: 64px;
+    height: 60px;
 }
 /*fim bloco-10///////////////////////////////////////////////////////////////////////////*/
 
 
-
+/*.bloco-6{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 30px 0;
+    background-image: url('../img/banner-faça-parte-do-projeto-1440x495.png');
+    background-size: 100% 100%;
+    max-height: 475px;
+    color: white;
+}
+.bloco-6  h3 {
+    padding: 40px 0 45px 0;
+    font-weight: bold;
+    color: white;
+}
+.bloco-6-item-1 {
+    padding: 20px 0 35px 0;
+}
+.bloco-6-p{
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    line-height: 27px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center; 
+}
+.bloco-6-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
+}
+.bloco-6-btn a{
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.bloco-6-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #0FBDCE;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    height: 82px;
+    width: 420px;
+    line-height: 24px;
+    padding-top: 28px;
+    border-radius: 13px;
+}*/
 
 
 
 /*Media queryss////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width: 1150px){
-p{
-    background-color: red;
+
+/*bloco-6 /////////////////////////////////////////////////////////////////////////////////*/
+.bloco-6{
+    max-height: 450px;
 }
+.bloco-6-p{
+    width: 95%;
+}
+.bloco-6-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: #0FBDCE;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    height: 82px;
+    width: 320px;
+    line-height: 24px;
+    padding-top: 28px;
+    border-radius: 13px;
+}
+/*fim bloco-6 //////////////////////////////////////////////////////////////////////////////*/
 
 /*bloco-7 /////////////////////////////////////////////////////////////////////////////////*/
 .bloco-7{
-    
+    max-height: 450px;
+}
+.bloco-7-btn{
+    width: 100%;
+    text-align: center;
+    margin: 40px 0 0 0 ;
 }
 .bloco-7-p{
     width: 95%;
 }
+.bloco-7-btn a > p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    color: #454545;
+    font-size: 16px;
+    font-weight: 600;
+    height: 82px;
+    width: 286px;
+    line-height: 24px;
+    padding-top: 18px;
+    border-radius: 13px;
+}
 /*fim bloco-7 //////////////////////////////////////////////////////////////////////////////*/
+}
 
+@media screen and (max-width: 1000px){
+    .bloco-3{
+        height: 250px;
+    }
+    .bloco-6-btn{
+        width: 100%;
+        text-align: center;
+        margin: 0px 0 0 0 ;
+    }
+}
 
+@media screen and (max-width: 900px){
+    .bloco-10 iframe{
+        width: 90%;
+        height: 60%;
+        margin-bottom: 25px;
+    }
+    .bloco-6{
+        height: 400px;
+    }
+    .bloco-6  h3 {
+        padding: 15px 0 10px 0;
+        font-weight: bold;
+        color: white;
+    }
+    .bloco-6-btn a > p{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        background-color: #0FBDCE;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        height: 60px;
+        width: 260px;
+        line-height: 24px;
+        padding-top: 20px;
+        border-radius: 13px;
+    }
+    .bloco-7-btn{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0 0 0 ;
+    }
+    .bloco-9-container img{
+        padding: 20px;
+        width: 100% ;
+        height: 100%;
+    }
+    .bloco-10 input{
+        width: 100%;
+        margin: 15px 0 0 0;
+        line-height: 50px;
+        border: none;
+        text-align: center;
+        border-radius: 12px;
+        color: #454545;
+        font-size: 20px;
+    }
+    .bloco-10 input::placeholder{
+        color: rgba(200, 200, 200, 200);
+        font-size: 18px;
+    }
+    .bloco-10{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: #0FBDCE;
+        padding: 20px 0 30px 0;
+        color: #454545;
+    }
+    .bloco-10-btn{
+        width: 100%;
+        text-align: center;
+        margin: 40px 0 0 0 ;
+    }
+    .bloco-10-btn a{
+        display: inline-block;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    .bloco-10-btn a > p{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        background-color: #006699;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        height: 55px;
+        width: 280px;
+        line-height: 24px;
+        padding-top: 13px;
+        border-radius: 12px;
+    }
+    .bloco-10 h3{
+        margin: 10px 0 15px 0;
+    }
+    .bloco-11{
+        width: 100%;
+        text-align: center;
+        background-color: #0FBDCE;
+        padding: 0px 0 60px 0;
+    }
+}
 
+@media screen and (max-width: 800px){
+    .bloco-7{
+        max-height: 330px;
+    }
+    .bloco-6{
+        max-height: 330px;
+    }
+    .bloco-6-p{
+        width: 95%;
+        font-size: 15px;
+    }
+    .bloco-7-p{
+        width: 95%;
+        font-size: 14px;
+    }
+    .bloco-7 h3{
+        font-size: 19px;
+        padding: 0px 0 0px 0;
+    }
+    .bloco-7-btn a > p{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        background-color: white;
+        color: #454545;
+        font-size: 15px;
+        font-weight: 600;
+        height: 50px;
+        width: 256px;
+        line-height: 18px;
+        padding-top: 8px;
+        border-radius: 13px;
+    }
+    .bloco-6  h3 {
+        font-size: 19px;
+        padding: 0px 0 0px 0;
+        font-weight: bold;
+        color: white;
+    }
+    .bloco-6-btn a > p{
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+        background-color: #0FBDCE;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        height: 50px;
+        width: 240px;
+        line-height: 24px;
+        padding-top: 15px;
+        border-radius: 13px;
+    }
+    .bloco-3{
+        height: 230px;
+        width: 100%;
+        background-image: url('../img/banner03-sobre\ a\ ong-1458x342.png');
+        background-size: 100% 100%;
+    }
+    .bloco-2 .bloco-2-container img{
+        margin: 25px;
+        width: 50%;
+        height: 40%;
+    }
+    .bloco-10 h3{
+        font-size: 18px;
+    }
+    .menu-icons{
+        display: flex;
+        width: 20%;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .menu-icons a{
+        padding: 0px 15px 25px 15px;
+    }
+    .menu-icons .bloco-11-item-1{
+        margin: 7px;
+        background-image: url('../img/instagram.png');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: 100% 100%;
+        height: 30px;
+    }
+    .menu-icons .bloco-11-item-2{
+        margin: 7px;
+        background-image: url('../img/facebook.png');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: 100% 100%;
+        height: 30px;
+    }
+    .menu-icons .bloco-11-item-3{
+        margin: 7px;
+        background-image: url('../img/email.png');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: 100% 100%;
+        height: 30px;
+    }
+    .menu-icons .bloco-11-item-4{
+        margin: 7px;
+        background-image: url('../img/whatsapp.png');
+        background-repeat: no-repeat;
+        background-position: center; 
+        background-size: 100% 100%;
+        height: 30px;
+    }
+    .bloco-1-p{
+        font-family: Poppins;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 auto;
+        width: 80%;
+        color: #454545;
+        margin-bottom: 60px;
+        margin-top: 15px;
+        font-style: normal;
+        text-align: center; 
+        
+    }
 
+    .content{
+        height: 108px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px 0px 3px 5px;
+    }
+    nav > .menu {
+        list-style-type: none;
+        display: flex;
+        margin-top: 15px;
+    }
+    nav  .menu  a{
+        font-family: 'Poppins';
+        color: white;
+        text-decoration: none;
+        margin-left: 0%;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 28px 23px 28px 0;
+    }
+    .logo{
+        width: 35%;
+        height: 95px;  
+        background-image: url('../img/logo-ong-qualivida.png'); 
+        background-position: center ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .nav{
+        display: none;
+    }
+    .logo{
+        width: 36%;
+        height: 65px;  
+        background-image: url('../img/logo-ong-qualivida.png'); 
+        background-position: center ;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .bloco-1-btn a > p{
+        padding-top: 11px;
+        cursor: pointer;
+        margin: 0 auto;
+        background-color: #0FBDCE;
+        border-radius: 13px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        height: 60px;
+        width: 400px;
+        line-height: 20px;
+        text-align: right;
+    }
+    .bloco-1-btn a p img{
+        width: 52px;
+        height: 40px;
+    }
+
+    .bloco-2{
+        text-align: center;
+        padding: 50px 0 85px 0;
+        background-color: #006699;
+        color: white;
+    }
+    .bloco-2 > h3 {
+        margin: 0px;
+        color: white;
+    }
+    .bloco-2 .bloco-2-container{
+        margin-top: 45px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .bloco-2 .bloco-2-container img{
+        margin: 25px;
+        width: 40%;
+        height: 40%;
+    }
+    .bloco-2 .bloco-2-container p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        width: 60%;
+        margin: auto;
+    }
+    .bloco-2 .bloco-2-container h4{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .container-item-1 > h4{
+        margin-bottom: 0;
+    }
+    .container-item-1{
+        width: 100%;
+        margin-top: 45px;
+    }
+    .container-item-2{
+        width: 100%;
+        margin-top: 75px;
+    }
+    .container-item-3{
+        width: 100%;
+        margin-top: 75px;
+    }
+    .container-item-1  img{
+        margin-top: 100px;
+    }
+    .bloco-3{
+        height: 175px;
+        width: 100%;
+        background-image: url('../img/banner03-sobre\ a\ ong-1458x342.png');
+        background-size: 100% 100%;
+    }
+    .bloco-5{
+        width: 100%;
+        padding: 20px 0 35px 0;
+        margin: 30px 0;
+        display: inline-block;
+        text-align: center;
+        background-color: #0FBDCE;
+        color: white;
+    }
+    .bloco-5  p{
+        font-family: 'Roboto';
+        width: 85%;
+        margin: 0 auto;
+    }
+    #it1{
+        margin: 25px 0 25px 0;
+    }
+    #it2{
+        margin: 30px 0;
+    }
+    #it3{
+        margin: 25px 0 30px 0;
+    }
+    #it4{
+        margin: 25px 0 25px 0;
+    }
+    .bloco-5-item-1{
+        padding-top: 20px;
+        width: 75%;
+        margin: 0 auto
+    }
+    .bloco-5-item-2{
+        padding-top: 50px;
+        width: 75%;
+        margin: 0 auto
+    }
+    .bloco-5-item-3{
+        padding-top: 50px;
+        width: 75%;
+        margin: 0 auto
+    }
+    .bloco-5-item-4{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .bloco-5-item-4 h1{
+        padding: 0px;
+    }
+    .bloco-6{
+        height:100%;
+    }
+    .bloco-6 h3{
+        padding: 15px 0 0 0;
+    }
+    .bloco-7 h3{
+        padding: 15px 0 0 0;
+    }
+    .bloco-6-item-1 {
+        width: 100%;
+        background-color: #006699;
+    }
+    .bloco-6-item-2 {
+        display: none;
+    }
+    .bloco-7{
+        height: 100%;
+    }
+    .bloco-7-item-2 {
+        width: 100%;
+        background-color: #0FBDCE;
+    }
+    .bloco-7-item-1 {
+        display: none;
+    }
+    .bloco-6-p{
+        width: 75%;
+        padding: 25px 0 15px 0;
+    }
+    .bloco-7-p{
+        width: 75%;
+        padding: 25px 0 5px 0;
+    }
+    .bloco-9{
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+    .bloco-9 > h3{
+        padding: 10px 0 5px 0;
+        font-size: 20px;
+    }
+    .bloco-9 h3 img{
+        width: 30px;
+        height: 30px;
+    }
+    .bloco-10{
+        display: inline-block;
+    }
+    .bloco-10-item-1{
+        width: 100%;
+    }
+    .bloco-10-item-2{
+        width: 100%;
+    }
+    .bloco-10-item-2 h3{
+        padding-top: 35px;
+        font-size: 20px;
+    }
+    .bloco-10-item-1 h3{
+        padding-top: 25px;
+        font-size: 20px;
+    }
+    .bloco-10-item-2 iframe{
+        height: 300px;
+        width: 75%;
+    }   
+    .menu-icons{
+        justify-content: space-between;
+    }
+    .bloco-11-item-1{
+        width: 22%;
+        height: 100%;
+    }
+    .bloco-11-item-2{
+        width: 22%;
+        height: 100%;
+    }
+    .bloco-11-item-3{
+        width: 22%;
+        height: 100%;
+    }
+    .bloco-11-item-4{
+        width: 22%;
+        height: 100%;
+    }
+    .bloco-10-item-2 p{
+        width: 75%;
+        margin: 0 auto;
+    }
 }
 /*Fim Media queryss////////////////////////////////////////////////////////////////////////*/
