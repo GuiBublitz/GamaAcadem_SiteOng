@@ -1174,6 +1174,9 @@ padding: 10px 10px 15px 50px;
     }
 }
 @media screen and (max-width: 600px){
+    .carrosel-1{
+        display: none;
+    }
     .bloco-4-btn a > p{
         line-height: 350%;
         text-align: center;
@@ -1203,4 +1206,203 @@ padding: 10px 10px 15px 50px;
         height: 100%;
     }
 }
+@media screen and (max-width: 500px){
+        .bloco-1-p{
+            text-align: justify;
+            font-family: Poppins;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 auto;
+            width: 85%;
+            color: #454545;
+            margin-bottom: 60px;
+            margin-top: 15px;
+            font-style: normal;
+        }
+        .bloco-1-btn a > p{
+            padding-top: 15px;
+            cursor: pointer;
+            margin: 0 auto;
+            background-color: #0FBDCE;
+            border-radius: 13px;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            height: 54px;
+            width: 320px;
+            line-height: 24px;
+            text-align: center;
+        }
+        .bloco-1-btn a p img{
+            display: none;
+        }
+        .bloco-6  h3 {
+            font-size: 19px;
+            padding: 0px 0 0px 0;
+            font-weight: bold;
+            color: white;
+        }
+        .bloco-7  h3 {
+            font-size: 19px;
+            padding: 0px 0 0px 0;
+            font-weight: bold;
+            color: white;
+        }
+
+}
+@media screen and (max-width: 400px){
+        .bloco-1-btn a > p{
+            padding-top: 10px;
+            cursor: pointer;
+            margin: 0 auto;
+            background-color: #0FBDCE;
+            border-radius: 13px;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            height: 54px;
+            width: 250px;
+            line-height: 18px;
+            text-align: center;
+        }
+        .bloco-4-btn a > p{
+            line-height: 350%;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            background-color:  #0FBDCE;
+            color: white;
+            border-radius: 13px;
+            font-size: 20px;
+            font-weight: 600;
+            height: 70px;
+            width: 250px;
+            padding-top: 0px;
+        }
+        .bloco-10-btn a > p{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            background-color: #006699;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            height: 55px;
+            width: 250px;
+            line-height: 20px;
+            padding-top: 12px;
+            border-radius: 12px;
+        }
+        .bloco-8{
+            width: 100%;
+            text-align: center;
+            margin: 0 0 30px 0;
+            background-color: white;
+            padding: 20px 0;
+        }
+        .bloco-8 > h3{
+            width: 80%;
+            font-size: 18px;
+            padding: 20px 0 5px 0;
+            font-weight: bold;
+            color: #454545;
+            margin: 0 auto;
+        }
+        .bloco-8-container{
+            display: flex;
+            width: 80%;
+            margin: 0 auto;
+        }
+        .bloco-8-container img{
+            padding: 0px;
+            width: 70%;
+        }
+        .bloco-9 h3{
+            font-size: 16px ;
+        }
+        .bloco-4-p{
+            text-align: justify;
+        }
+        .logo{
+            width: 35%;
+            height: 45px;  
+            background-image: url('../img/logo-ong-qualivida.png'); 
+            background-position: center ;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        header{
+            margin: 25px 0 0 0;
+            background-color: #006699;
+        }
+        .bloco-1{
+            padding: 28px 0 25px 0;
+            background-color: white;
+        }
+        .bloco-3{
+            height: 90px;
+        }
+        .bloco-6-p{
+            margin-top: 0;
+            padding: 0px ;
+            width:90%;
+            text-align: justify;
+        }
+        .bloco-6-btn a > p{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            background-color: #0FBDCE;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            height: 40px;
+            width: 200px;
+            line-height: 24px;
+            padding-top: 8px;
+            border-radius: 13px;
+        }
+        .bloco-7-p{
+            margin-top: 0;
+            padding: 0px ;
+            width:90%;
+            text-align: justify;
+        }
+        .bloco-7-btn a > p{
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            cursor: pointer;
+            background-color: white;
+            color: #454545;
+            font-size: 14px;
+            font-weight: 600;
+            height: 40px;
+            width: 226px;
+            line-height: 16px;
+            padding-top: 4px;
+            border-radius: 13px;
+        }
+        .bloco-7-item-2{
+            height: 350px;
+        }
+        .bloco-10-item-1 h3{
+            font-size: 17px;
+        }
+        .bloco-11-item-1{
+            width: 25%;
+        }
+        .bloco-11-item-2{
+            width: 25%;
+        }
+        .bloco-11-item-3{
+            width: 25%;
+        }
+        .bloco-11-item-4{
+            width: 25%;
+        }
+        .menu-icons{
+            width:50%;
+        }
+}
+
 /*Fim Media queryss////////////////////////////////////////////////////////////////////////*/
