@@ -1,4 +1,4 @@
-# GamaAcadem_SiteOng
+# GamaAcademy_SiteOng
 
 ## Motivação
 
